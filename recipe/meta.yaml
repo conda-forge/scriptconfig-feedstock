@@ -1,5 +1,5 @@
 {% set name = "scriptconfig" %}
-{% set version = "0.8.2" %}
+{% set version = "0.8.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/scriptconfig-{{ version }}.tar.gz
-  sha256: 4d01a4e3198e7efc049af0446662cedf97d5153d208818a87b76ea9fa654e008
+  sha256: 758700aed6c6fa60fe9ef3b769f8237d4dc42b25a74e06f3f8f30aa58245b80a
 
 build:
   noarch: python
